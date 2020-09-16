@@ -1,0 +1,91 @@
+body{
+    background-color:white;
+}
+#conteiner{
+    background-color: whitesmoke;
+}
+header{
+    background-color: lightsalmon;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3cm;
+}
+aside{
+    background-color: blanchedalmond;
+    width: 4000px;
+    margin: 7px;
+    float: left;
+    padding-left: 30px;   
+}
+aside1{
+    float: left;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+aside2{
+    float: right;
+    padding-left: 30px;
+    padding-top: 0px;
+}
+aside3{
+    float: left;
+    padding-top: 5px;
+}
+aside4{
+    float: right;
+    padding-right: 30px;
+}
+article{
+    background-color: #eeeeee;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer{
+    background-color: lightsalmon;
+    color: black;
+    margin: 1px auto;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    height: 150px;
+    margin: 1px auto;
+}
+h1, h3{
+    color: black;
+}
+h2, h4, p{
+    color: darkblue;
+}
+p{
+    font-size: 13px;
+}
+input{
+    display: block;
+    margin: 20px;
+    width: 7cm;
+    height: 1cm;
+}
+textarea{
+    display: block;
+    margin: 20px;
+    width: 7cm;
+    height: 5cm;
+}
+form{
+    margin-top: 10px;
+}
+li{
+    margin-top: 20px;
+}
+section{
+    background-color: bisque;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+}

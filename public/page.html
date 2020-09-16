@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <aside1>
+            <img src="Zgrada.png" width="115" />
+        </aside1>
+        <aside2>
+            <img src="Zgrada.png" width="115" />
+        </aside2>
+        <title> JAVNO</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <h1>J A V N O</h1>
+        </header>
+        <article>
+            <h2>Stranica namijenjena komentiranju javnih ustanova u svrhu unapređivanja i poboljšanja usluge</h2>
+        </article>
+        <article>
+          <h3>Javne ustanove s najviše komentara</h3>
+            <ul>
+                <li>Hrvatski zavod za zapošljavanje</li>
+                <li>Hrvatska radiotelevizija</li>
+                <li>Moderna galerija, Zagreb</li>
+                <li>Arheološki muzej Istre</li>
+                <li>Institut "Ruđer Bošković"</li>
+                <li>Hrvatske vode</li>
+                <li>Umjetnička galerija Dubrovnik</li>
+                <li>Dubrovački muzej</li>
+            </ul>
+        </article>
+        <aside>
+            <h2>Komentiranje</h2>
+            <h3>Napišite što vam se sviđa/ne sviđa u javnim ustanovama</h3>
+            <form action="/comments" method="POST">
+                <input type="text" name="public_institution" placeholder="Javna ustanova"/>
+                <textarea rows="10" name="comment"placeholder="Komentar"></textarea>
+                <input type="submit" value="Potvrda"/>
+            </form>
+        </aside>
+
+        <section id="suggestion">
+            <h4>Komentari</h4>
+        </section>
+        <footer>
+            <aside3>
+                <h3> "JAVNO" </h3>
+                <p> Ulica Nikole Tesle, 52220 Pula </p>
+                <p> 099/123 4567 </p>
+                <p> OIB 12345678912 </p>
+            </aside3>
+            <aside4>
+                <img src="graf.png" width="250"/>
+            </aside4>
+        </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
